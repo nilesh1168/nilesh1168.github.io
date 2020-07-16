@@ -1397,9 +1397,9 @@ footer .credits a {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto auto;
+  grid-template-rows: auto auto auto;
   gap: 2px 2px;
-  grid-template-areas: "flower flower" "lohagad ice-cream" "lake ice-cream" "dam dam";
+  grid-template-areas: "flower lake" "lohagad ice-cream" "dam ice-cream";
 }
 
 .flower { grid-area: flower; }
