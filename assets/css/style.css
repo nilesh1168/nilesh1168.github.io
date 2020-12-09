@@ -1386,6 +1386,11 @@ footer .credits a {
   font-size: 40px 30px;
 }
 
+.electron-ico{
+  content: url(/assets/img/electron.png);
+  font-size: 40px 30px;
+}
+
 .project-list{
   font-size: x-large;
 }
