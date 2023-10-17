@@ -1404,15 +1404,18 @@ footer .credits a {
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto;
   gap: 2px 2px;
-  grid-template-areas: "flower lake" "lohagad ice-cream" "dam ice-cream";
+  grid-template-areas: "mauricielandscape1 mauricielandscape1 mauricielandscape1" "flower mauricie mauricie" "mauricielandscape2 mauricie mauricie" "lohagad . lake";
 }
 
 .flower { grid-area: flower; }
 
-.dam { grid-area: dam; }
-
-.ice-cream { grid-area: ice-cream; }
-
 .lake { grid-area: lake; }
 
 .lohagad { grid-area: lohagad; }
+
+.mauricie { grid-area: mauricie; }
+
+.mauricie_landscape1 { grid-area: mauricielandscape1; }
+
+.mauricie_landscape2 { grid-area: mauricielandscape2; }
+
