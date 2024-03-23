@@ -771,6 +771,7 @@ a:hover {
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
+  min-height: 340px;
 }
 
 .service-box:hover .ico-circle {
@@ -849,6 +850,7 @@ a:hover {
 .work-img {
   display: block;
   overflow: hidden;
+  height: 207px;
 }
 
 .work-img img {
@@ -857,6 +859,7 @@ a:hover {
 
 .work-content {
   padding: 2rem 3% 1rem 4%;
+  height: 132px;
 }
 
 .work-content .w-more {
