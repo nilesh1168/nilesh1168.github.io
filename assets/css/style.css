@@ -513,6 +513,11 @@ a:hover {
   color: #fff;
 }
 
+.navbar-b.navbar-trans .nav-link:active {
+  color: #fff;
+}
+
+
 .navbar-b.navbar-trans .show > .nav-link,
 .navbar-b.navbar-trans .active > .nav-link,
 .navbar-b.navbar-trans .nav-link.show,
@@ -859,7 +864,7 @@ a:hover {
 
 .work-content {
   padding: 2rem 3% 1rem 4%;
-  height: 132px;
+  height: 150px;
 }
 
 .work-content .w-more {
