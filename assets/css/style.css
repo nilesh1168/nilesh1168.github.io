@@ -319,7 +319,6 @@ a:hover {
 /*------/ Back to top button /------*/
 .back-to-top {
   position: fixed;
-  display: none;
   background: #0078ff;
   color: #fff;
   width: 44px;
@@ -332,10 +331,13 @@ a:hover {
   bottom: 15px;
   transition: background 0.5s;
   z-index: 11;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .back-to-top i {
-  padding-top: 12px;
+  padding-top: 120px;
   color: #fff;
 }
 
