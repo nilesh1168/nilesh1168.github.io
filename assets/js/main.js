@@ -153,4 +153,7 @@
     });
   });
 
+  // Update copyright year dynamically
+  document.getElementById('copywright-year').textContent = new Date().getFullYear();
+
 })(jQuery);
